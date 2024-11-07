@@ -1,0 +1,73 @@
+/* Basic styling for the body */
+body {
+  text-align: center;
+  background-color: #0747f7;
+}
+
+/* Style for the main title */
+h1 {
+  font-size: 5rem;
+  color: #f4f5f6;
+  font-family: cursive;
+  text-shadow: 3px 0 #fa187e;
+}
+
+/* Background images for each button based on the class name */
+.W {
+  background-image: url("./assets/images/tom1.png");
+}
+
+.A {
+  background-image: url("./assets/images/tom2.png");
+}
+
+.S {
+  background-image: url("./assets/images/tom3.png");
+}
+
+.D {
+  background-image: url("./assets/images/tom4.png");
+}
+
+.J {
+  background-image: url("./assets/images/snare.png");
+}
+
+.K {
+  background-image: url("./assets/images/crash.png");
+}
+
+.L {
+  background-image: url("./assets/images/kick.png");
+}
+
+/* Center the drum set */
+.set {
+  margin: 10% auto;
+}
+
+/* Style for button when pressed */
+.pressed {
+  box-shadow: 0 3px 4px 0 #DBEDF3;
+  opacity: 0.6;
+}
+
+/* Styling for the drum buttons */
+.drum {
+  outline: none;
+  border: 8px solid #f52985;
+  font-size: 4rem;
+  font-family: cursive;
+  line-height: 2.6;
+  font-weight: 600;
+  color: #f52985;
+  text-shadow: 3px 0 #DBEDF3;
+  border-radius: 15px;
+  display: inline-block;
+  width: 160px;
+  height: 160px;
+  text-align: center;
+  margin: 10px;
+  background-color: rgb(245, 241, 241);
+  cursor: pointer;
+}
